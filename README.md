@@ -2,6 +2,8 @@
 This bot is not your regular Discord Bot. It takes control of your mouse and keyboard and spams incrementing numbers on a discord text channel. 
 
 ![[video-to-gif output image]](/example.gif)
+
+
 Of course you are not running it from fone, dis is just an example of what it does.
 
 ## Steps:
