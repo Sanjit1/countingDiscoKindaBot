@@ -5,9 +5,9 @@ This bot is not your regular Discord Bot. It takes control of your mouse and key
 Of course you are not running it from fone, dis is just an example of what it does.
 
 ## Steps:
-- [Install Python3](/#InstallPython3)
-- [Install the script and pyautogui](/#Installthescriptandpyautogui)
-- [Running the script](/#RunningtheScript)
+- [Install Python3](https://github.com/Sanjit1/countingDiscoKindaBot#InstallPython3)
+- [Install the script and pyautogui](https://github.com/Sanjit1/countingDiscoKindaBot#Installthescriptandpyautogui)
+- [Running the script](https://github.com/Sanjit1/countingDiscoKindaBot#RunningtheScript)
 - [Warning](/#Warning)
 ### Install Python3:
 You know how to do this dumbasss:
