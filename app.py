@@ -2,7 +2,7 @@ import pyautogui
 import time
 import math
 
-time.sleep(4)
+time.sleep(15)
 
 def perfect_repetition(s):
     chars = "123456789"
