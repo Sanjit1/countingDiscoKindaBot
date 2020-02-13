@@ -1,2 +1,2 @@
 # countingDiscoKindaBot
- A Chrome extention to count numbers 
+Python script to spam numbers on Discord

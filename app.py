@@ -61,4 +61,4 @@ spam(8286, 41509, 0.9)
 # WEED: Syntax: spam(start number, end number, speed(in seconds))
 # WEED: configure speed, based on you internet speed, if it is slow, increase the parameter, and test it before you run the bot, so that 
 # WEED: discord does not have to tell you to slow down.
-# WEED: Also dont mind the WEED its just for VSCode to color my comments
+# WEED: Also don't mind the WEED its just for VSCode to color my commentsPython script to spam numbers on DiscordPython script to spam numbers on Discord
