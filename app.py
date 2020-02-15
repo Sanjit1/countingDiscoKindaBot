@@ -2,7 +2,7 @@ import pyautogui
 import time
 import math
 
-time.sleep(15)
+time.sleep(5)
 
 def perfect_repetition(s):
     chars = "123456789"
@@ -53,11 +53,12 @@ def spam(start, end, spd):
             string_to_send += " Perfect Repetition!"
         if has69(str(each)):
             string_to_send += " Nice"
+        pyautogui.hotkey('\n')
         pyautogui.typewrite(string_to_send)
         pyautogui.press('enter')
         time.sleep(spd)
 
-spam(8286, 41509, 0.9)
+spam(1, 2000, 0.1)
 # WEED: Syntax: spam(start number, end number, speed(in seconds))
 # WEED: configure speed, based on you internet speed, if it is slow, increase the parameter, and test it before you run the bot, so that 
 # WEED: discord does not have to tell you to slow down.
