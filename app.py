@@ -89,8 +89,8 @@ def spamList(list, repeats, totalWaitAtLeast):
 
 # // spamText("t!tg train", 15, 15)
 
-spamList([spammable("t!tg clean", 5), spammable("t!tg feed", 5), spammable("t!tg play", 5)], 2,21)
-for ea in range(0, 10):
+spamList([spammable("t!tg clean", 5), spammable("t!tg feed", 5), spammable("t!tg play", 5)], 1,21)
+for ea in range(0, 15):
     spamList([spammable("t!tg train", 15),spammable("t!tg train", 5), spammable("t!fish", 10)],8, 40)
     spamList([spammable("t!fish sell trash", 5),spammable("t!fish sell common", 5), spammable("t!fish sell uncommon", 5)], 1, 5)
 

@@ -1,7 +1,8 @@
-
+listOfEmote = ["OKflex", "weeb", "thenking", "thonk", "thonkmonocole", "thunking", "ban", "tidepod", "thonkscioly", "thonksatan", "thonksalt", "thonkpoop", "thonkmonocle", "thonk", "thinkascension", "thenking", "themadmanOP", "scratchcat","PEPE", "owo", "OOFdab", "oof~1", "OKflex", "dank", "dabMAX", "boba"]
 import pyautogui
 import time
 import math
+import random
 
 time.sleep(5)
 
@@ -84,16 +85,27 @@ def spamList(list, repeats, totalWaitAtLeast):
             time.sleep(spamThingie.wait)
         time.sleep(timeLeft if timeLeft>0 else 0)
 
+def start():
+    pyautogui.moveTo(200, None, 2, pyautogui.easeInElastic)
+    for each in range(0,100):
+        pyautogui.scroll(random.randint(-200, 500))
+        pyautogui.scroll(random.randint(-200, 500))
+        pyautogui.moveTo(200, random.randint(180, 700), .5, pyautogui.easeInElastic)
+        time.sleep(0.1)
+        pyautogui.click()
+        time.sleep(0.2)
+        pyautogui.hotkey('\n')
+        pyautogui.typewrite(":"+random.choice(listOfEmote)+":")
+        pyautogui.press('enter')
+        time.sleep(0.1)
 
+start()
 
 # // spamNumbers(1, 2000, 0.1)
 
-# // spamText("t!tg train", 15, 15)
+
 
 # //spamList([spammable("t!tg clean", 5), spammable("t!tg feed", 5), spammable("t!tg play", 5)], 2,21)
-for ea in range(0, 20):
-    spamList([spammable("t!fish", 41)],4, 50)
-    spamList([spammable("t!fish sell trash", 5),spammable("t!fish sell common", 5), spammable("t!fish sell uncommon", 5)], 1, 5)
 
 
 # WEED: Syntax: spam(start number, end number, speed(in seconds))
