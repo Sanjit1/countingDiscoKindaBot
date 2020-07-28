@@ -43,16 +43,16 @@ def isFibonacci(n):
 def spamNumbers(start, end, spd):
     for each in range(start, end+1):
         string_to_send = str(each)
-        if isPerfectSquare(each):
-            string_to_send  += " Perfect Square!"
-        if isFibonacci(each):
-            string_to_send += " Fibonacci!"
-        if isPalindrome(str(each)):
-            string_to_send += " Palindrome!!"
-        if perfect_repetition(str(each)):
-            string_to_send += " Perfect Repetition!"
-        if has69(str(each)):
-            string_to_send += " Nice"
+        #if isPerfectSquare(each):
+        #    string_to_send  += " Perfect Square!"
+        #if isFibonacci(each):
+        #    string_to_send += " Fibonacci!"
+        #if isPalindrome(str(each)):
+        #    string_to_send += " Palindrome!!"
+        #if perfect_repetition(str(each)):
+        #    string_to_send += " Perfect Repetition!"
+        #if has69(str(each)):
+        #    string_to_send += " Nice"
         pyautogui.hotkey('\n')
         pyautogui.typewrite(string_to_send)
         pyautogui.press('enter')
@@ -85,14 +85,16 @@ def spamList(list, repeats, totalWaitAtLeast):
 
 
 
-# // spamNumbers(1, 2000, 0.1)
+spamNumbers(379, 8000, 0.75)
+
+# spamList([spammable(":goat: :fire:  ", 3), spammable("hi", 3), spammable(":simp: :four: :duck:  ", 3)], 69420, 1)
 
 # // spamText("t!tg train", 15, 15)
 
-spamList([spammable("t!tg clean", 5), spammable("t!tg feed", 5), spammable("t!tg play", 5)], 1,21)
-for ea in range(0, 15):
-    spamList([spammable("t!tg train", 15),spammable("t!tg train", 5), spammable("t!fish", 10)],8, 40)
-    spamList([spammable("t!fish sell trash", 5),spammable("t!fish sell common", 5), spammable("t!fish sell uncommon", 5)], 1, 5)
+#for ea in range(0, 200):
+#    spamList([spammable("t!tg train", 12),spammable("t!tg train", 12),spammable("t!tg train", 6), spammable("t!fish", 6)],10, 30)
+#    spamList([spammable("t!fish sell trash", 5),spammable("t!fish sell common", 5), spammable("t!fish sell uncommon", 5),spammable("t!credit", 1)], 1, 5)
+
 
 
 # WEED: Syntax: spam(start number, end number, speed(in seconds))
